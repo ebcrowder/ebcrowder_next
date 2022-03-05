@@ -33,7 +33,7 @@ Under Devices, click on the "Port-forwarding" and "Configure" buttons and enter 
 
 At this point, the browser will attempt to make a connection to the debug server running on port `9229`. If it is successful, you will see it appear:
 
-![Dev tools menu](/images/2022-02-19_01.webp "dev tools")
+![Dev tools menu](/assets/images/2022-02-19_01.webp "dev tools")
 
 Click "inspect" to open the dev tools window. Go to the "Sources" tab and add breakpoints as you see fit, then send a request to the server.
 ```bash
@@ -41,7 +41,7 @@ curl localhost:3000
 ```
 The debugger should pause execution and allow you to inspect your code.
 
-![Dev tools debugger](/images/2022-02-19_02.webp "dev tools debugger")
+![Dev tools debugger](/assets/images/2022-02-19_02.webp "dev tools debugger")
 
 Happy debugging.
 
