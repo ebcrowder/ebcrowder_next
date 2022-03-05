@@ -2,7 +2,6 @@
 date: "2019-09-13"
 title: "What I Learned From My First Year as a Software Developer"
 tags: ["Programming", "Teams", "Career"]
-draft: false
 ---
 
 Like a lot of individuals in software development I worked in a different industry prior to making the career shift. I recently completed my first year as a software developer at Cascade Energy and thought I would share a few bits of information that may be of use to others who are beginning to embark on a similar path.

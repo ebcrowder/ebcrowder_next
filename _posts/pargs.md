@@ -2,7 +2,6 @@
 date: "2020-04-13"
 title: "pargs"
 tags: ["Rust"]
-draft: false
 ---
 
 # Building `rust_ledger`

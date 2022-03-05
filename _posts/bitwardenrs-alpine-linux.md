@@ -2,7 +2,6 @@
 date: "2020-03-11"
 title: "How to Setup bitwarden_rs on a Alpine Linux Virtual Machine"
 tags: ["Linux", "Security", "Bitwarden"]
-draft: false
 ---
 
 [Previously](https://ebcrowder.dev/2019-09-20), I described how to deploy [bitwarden_rs](https://github.com/dani-garcia/bitwarden_rs) using AWS Fargate. Fargate is a great service, but is relatively expensive and a bit overkill for simple, lightweight deployment use cases.

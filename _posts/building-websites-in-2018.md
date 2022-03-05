@@ -2,7 +2,6 @@
 date: "2018-12-15"
 title: "Building Websites in 2018 is a Lot of Fun"
 tags: ["React", "Javascript"]
-draft: false
 ---
 
 <a href="https://twitter.com/rauchg/status/1068183829737664512?ref_src=twsrc%5Etfw"><p>"React is Legos for adults"</p></a>&mdash; Guillermo Rauch (@rauchg)

@@ -2,7 +2,6 @@
 date: "2021-07-09"
 title: "Using GNOME Pop Shell on Fedora"
 tags: ["linux"]
-draft: false
 ---
 
 # References

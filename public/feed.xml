@@ -4,12 +4,101 @@
         <description><![CDATA[Eric Crowder]]></description>
         <link>https://ebcrowder.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 05 Mar 2022 16:05:34 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Mar 2022 23:56:39 GMT</lastBuildDate>
         <atom:link href="https://ebcrowder.dev/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>/posts/[slug].tsx</link>
-            <guid isPermaLink="true">/posts/[slug].tsx</guid>
+            <title><![CDATA[Adopting Neovim as my primary editor]]></title>
+            <link>/posts/adopting-neovim</link>
+            <guid isPermaLink="true">/posts/adopting-neovim</guid>
+            <category><![CDATA[Neovim]]></category>
+            <category><![CDATA[Vim]]></category>
+            <category><![CDATA[Linux]]></category>
+            <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Setup bitwarden_rs on a Alpine Linux Virtual Machine]]></title>
+            <link>/posts/bitwardenrs-alpine-linux</link>
+            <guid isPermaLink="true">/posts/bitwardenrs-alpine-linux</guid>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Bitwarden]]></category>
+            <pubDate>Wed, 11 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Deploy bitwarden_rs via AWS Fargate]]></title>
+            <link>/posts/bitwardenrs-aws-fargate</link>
+            <guid isPermaLink="true">/posts/bitwardenrs-aws-fargate</guid>
+            <category><![CDATA[AWS]]></category>
+            <category><![CDATA[Rust]]></category>
+            <category><![CDATA[Docker]]></category>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Bitwarden]]></category>
+            <pubDate>Fri, 20 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building Websites in 2018 is a Lot of Fun]]></title>
+            <link>/posts/building-websites-in-2018</link>
+            <guid isPermaLink="true">/posts/building-websites-in-2018</guid>
+            <category><![CDATA[React]]></category>
+            <category><![CDATA[Javascript]]></category>
+            <pubDate>Sat, 15 Dec 2018 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Change your local default git branch]]></title>
+            <link>/posts/change-your-default-git-branch</link>
+            <guid isPermaLink="true">/posts/change-your-default-git-branch</guid>
+            <category><![CDATA[git]]></category>
+            <pubDate>Sun, 21 Jun 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Install HTTPS Certificates on a cPanel Linux Server]]></title>
+            <link>/posts/install-https-cert-cpanel</link>
+            <guid isPermaLink="true">/posts/install-https-cert-cpanel</guid>
+            <category><![CDATA[HTTPS]]></category>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[cPanel]]></category>
+            <pubDate>Fri, 16 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Use KVM and Terraform to create a VM cluster]]></title>
+            <link>/posts/kvm-terraform</link>
+            <guid isPermaLink="true">/posts/kvm-terraform</guid>
+            <category><![CDATA[kvm]]></category>
+            <category><![CDATA[linux]]></category>
+            <category><![CDATA[networking]]></category>
+            <category><![CDATA[k8s]]></category>
+            <pubDate>Sun, 27 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pargs]]></title>
+            <link>/posts/pargs</link>
+            <guid isPermaLink="true">/posts/pargs</guid>
+            <category><![CDATA[Rust]]></category>
+            <pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Remote debugging Node applications with Chrome Dev Tools]]></title>
+            <link>/posts/remote-debugging-with-chrome</link>
+            <guid isPermaLink="true">/posts/remote-debugging-with-chrome</guid>
+            <category><![CDATA[Node]]></category>
+            <category><![CDATA[Linux]]></category>
+            <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Using GNOME Pop Shell on Fedora]]></title>
+            <link>/posts/using-gnome-pop-shell</link>
+            <guid isPermaLink="true">/posts/using-gnome-pop-shell</guid>
+            <category><![CDATA[linux]]></category>
+            <pubDate>Fri, 09 Jul 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What I Learned From My First Year as a Software Developer]]></title>
+            <link>/posts/what-I-learned-from-my-first-year</link>
+            <guid isPermaLink="true">/posts/what-I-learned-from-my-first-year</guid>
+            <category><![CDATA[Programming]]></category>
+            <category><![CDATA[Teams]]></category>
+            <category><![CDATA[Career]]></category>
+            <pubDate>Fri, 13 Sep 2019 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

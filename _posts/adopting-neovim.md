@@ -2,7 +2,6 @@
 date: "2022-03-01"
 title: "Adopting Neovim as my primary editor"
 tags: ["Neovim", "Vim", "Linux"]
-draft: false
 ---
 
 I love Vim.

@@ -2,7 +2,6 @@
 date: "2022-02-19"
 title: "Remote debugging Node applications with Chrome Dev Tools"
 tags: ["Node", "Linux"]
-draft: false
 ---
 
 Recently, I discovered that you can debug Node applications using the Chrome Dev Tools debugger. The Chrome debugger is something I use all of the time when working with front-end code, so being able to use it to debug server-side code is a huge plus.

@@ -2,7 +2,6 @@
 date: "2020-06-21"
 title: "Change your local default git branch"
 tags: ["git"]
-draft: false
 ---
 
 # Background

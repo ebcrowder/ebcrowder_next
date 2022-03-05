@@ -2,7 +2,6 @@
 date: "2020-12-27"
 title: "Use KVM and Terraform to create a VM cluster"
 tags: ["kvm", "linux", "networking", "k8s"]
-draft: false
 ---
 
 # Background

@@ -2,7 +2,6 @@
 date: "2019-08-16"
 title: "How to Install HTTPS Certificates on a cPanel Linux Server"
 tags: ["HTTPS", "Linux", "cPanel"]
-draft: false
 ---
 
 I was recently tasked with helping a friend update a website deployed on a cPanel box provided via GoDaddy. As part of this update, I needed to install a HTTPS certificate via [Let's Encrypt](https://letsencrypt.org/). This took some research, but I was able to string together a solution from a few different sources. So, I thought I would document the solution in case it can help someone else, or at the very least help me remember what I changed in case I have to revert anything!

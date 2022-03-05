@@ -2,7 +2,6 @@
 date: "2019-09-20"
 title: "How to Deploy bitwarden_rs via AWS Fargate"
 tags: ["AWS", "Rust", "Docker", "Security", "Bitwarden"]
-draft: false
 ---
 
 Recently, I ran across a project called [Bitwarden](https://bitwarden.com/), which is an open source password manager. There are a few third-party projects written in other languages that follow the project's API. Further, there is one impressive project [bitwarden_rs](https://github.com/dani-garcia/bitwarden_rs) that re-implements the Bitwarden project in Rust. It features a significantly smaller memory and resource footprint than the original application, which makes it perfect to host on free tier VMs on any of the major cloud providers. Even better, it ships as a public container on Docker Hub, so setting up the application is a breeze.
