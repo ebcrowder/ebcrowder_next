@@ -17,7 +17,7 @@ type Props = {
   preview?: boolean;
 };
 
-const Post = ({ post, morePosts, preview }: Props) => {
+const Post = ({ post, preview }: Props) => {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
@@ -32,7 +32,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
           <>
             <article className="mb-32">
               <Head>
-                <title>{post.title} | Next.js Blog Example</title>
+                <title>{post.title}</title>
               </Head>
               <PostHeader title={post.title} date={post.date} />
               <PostBody content={post.content} />
