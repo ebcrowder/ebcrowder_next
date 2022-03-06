@@ -10,9 +10,16 @@ const Meta = () => {
         href="/favicon/favicon.png"
       />
       <link rel="shortcut icon" href="/favicon/favicon.png" />
-      <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta name="description" content="Eric Crowder blog" />
+      <link
+        rel="alternate"
+        type="application/rss+xml"
+        href="https://ebcrowder.dev/feed.xml"
+      />
+      <meta name="robots" content="follow, index" />
+      <meta name="description" content="Eric Crowder - developer blog" />
+      <meta property="og:site_name" content="Eric Crowder - blog" />
+      <meta property="og:title" content="Eric Crowder - blog" />
+      <meta property="og:description" content="Eric Crowder - developer blog" />
       <meta property="og:image" content="/favicon/favicon.png" />
     </Head>
   );
