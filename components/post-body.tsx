@@ -4,11 +4,8 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className="max-w-2xl mx-auto">
-      <div
-        className="prose lg:prose-base dark:prose-invert"
-        dangerouslySetInnerHTML={{ __html: content }}
-      />
+    <div className="prose prose-xl max-w-prose mx-auto dark:prose-invert">
+      <div dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   );
 };

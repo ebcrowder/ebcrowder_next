@@ -10,7 +10,17 @@ I do most of my work in remote cloud virtual machines. By setting up an SSH tunn
 
 The following instructions should work for all Chromium-based browsers, including Chrome, Edge, Brave, etc.
 
-SSH into the server and run the application: 
+Create two SSH tunnels: one for port 9229 and the other for port 3000. This will allow the debugger to attach to the debug server running at port 9229. The tunnel for port 3000 will allow you to send requests to the running application from your local environment.
+
+Create the tunnels by running the following commands in separate terminal windows or tabs:
+```bash
+ssh -L 9229:localhost:9229 user@remote_machine
+ssh -L 3000:localhost:3000 user@remote_machine
+```
+
+Ports 9229 and 3000 of the remote machine are accessible from your local machine via localhost:9229 and localhost:3000.
+
+In the terminal window that is forwarding port 3000, navigate to your project directory and run:
 ```bash
 node --inspect server.js
 ```
@@ -22,15 +32,13 @@ For help, see: https://nodejs.org/en/docs/inspector
 Example app listening on port 3000
 ```
 
-Per above, the application has been launched and is running on the host machine at port `3000`, which is project-specific. Further, the `--inspect` flag instructs the Node runtime to also spawn a debug server to listen for debug client connections on port `9229`. This is the connection point that the Chrome Dev Tools debugger client will use for establishing a connection.
+Per above, the application has been launched and is running on the host machine at port 3000, which is project-specific. Further, the `--inspect` flag instructs the Node runtime to also spawn a debug server to listen for debug client connections on port 9229. This is the connection point that the Chrome Dev Tools debugger client will use for establishing a connection.
 
-Create two SSH tunnels: one for port `9229` and the other for port `3000`. This will allow the debugger to attach to the debug server running at port `9229`. The tunnel for port `3000` will allow you to send requests to the running application from your local environment.
+In a browser, go to `chrome://inspect`. 
 
-In a Chromium-based browser, go to `chrome://inspect`. 
+Under Devices, click on the "Port-forwarding" and "Configure" buttons and enter localhost:9229 and localhost:3000, if not already present.
 
-Under Devices, click on the "Port-forwarding" and "Configure" buttons and enter `localhost:9229` and `localhost:3000`, if not already present.
-
-At this point, the browser will attempt to make a connection to the debug server running on port `9229`. If it is successful, you will see it appear:
+At this point, the browser will attempt to make a connection to the debug server running on port 9229. If it is successful, you will see it appear:
 
 ![Dev tools menu](/assets/images/2022-02-19_01.webp "dev tools")
 
