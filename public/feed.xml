@@ -4,7 +4,7 @@
         <description><![CDATA[Eric Crowder]]></description>
         <link>https://ebcrowder.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 12 Mar 2022 00:54:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 May 2022 15:47:00 GMT</lastBuildDate>
         <atom:link href="https://ebcrowder.dev/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Adopting Neovim as my primary editor]]></title>
@@ -16,15 +16,6 @@
             <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How to Setup bitwarden_rs on a Alpine Linux Virtual Machine]]></title>
-            <link>/posts/bitwardenrs-alpine-linux</link>
-            <guid isPermaLink="true">/posts/bitwardenrs-alpine-linux</guid>
-            <category><![CDATA[Linux]]></category>
-            <category><![CDATA[Security]]></category>
-            <category><![CDATA[Bitwarden]]></category>
-            <pubDate>Wed, 11 Mar 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[How to Deploy bitwarden_rs via AWS Fargate]]></title>
             <link>/posts/bitwardenrs-aws-fargate</link>
             <guid isPermaLink="true">/posts/bitwardenrs-aws-fargate</guid>
@@ -34,6 +25,15 @@
             <category><![CDATA[Security]]></category>
             <category><![CDATA[Bitwarden]]></category>
             <pubDate>Fri, 20 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Setup bitwarden_rs on a Alpine Linux Virtual Machine]]></title>
+            <link>/posts/bitwardenrs-alpine-linux</link>
+            <guid isPermaLink="true">/posts/bitwardenrs-alpine-linux</guid>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Bitwarden]]></category>
+            <pubDate>Wed, 11 Mar 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building Websites in 2018 is a Lot of Fun]]></title>
